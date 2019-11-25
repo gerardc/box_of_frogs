@@ -1,8 +1,6 @@
 from aiohttp import web
 from resources.category import CategoryResource
 
-
-
 app = web.Application()
 categories = CategoryResource(web)
 
